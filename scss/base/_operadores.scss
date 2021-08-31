@@ -1,0 +1,27 @@
+$logo: 100%;
+$text: 28px;
+
+
+
+.texto {
+    font-size: $text;
+   
+    .text-h1 {
+        font-size: $text - 3px;
+    }
+    .text-h2 {
+        font-size: $text - 12px;
+    }
+    .text-h3 {
+        font-size: $text - 13px;
+    }
+    .text-h4 {
+        font-size: $text - 15px;
+    }
+    .text-h5 {
+        font-size: $text - 17px;
+    }
+    p {
+        font-size: $text - 12px;
+    }
+}

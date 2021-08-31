@@ -1,0 +1,83 @@
+@import  '../base/variables';
+@import  '../base/extends';
+
+/* tamaño de logos redes */
+.redes {
+    width: 30px;
+    height: 30px;   
+    margin: auto;
+    }
+.redes-espacio{
+    padding: 0px 3px;
+}
+
+footer {
+    padding: 23px 0px;
+}
+
+ /* tamaño de logo whatsapp */
+.whatsapp {
+    width: 45px;
+    height: 45px;  
+     position: fixed;
+    bottom: 0;
+    right: 0;
+   
+}
+ /* tamaño de mapa*/
+.mapa {
+    width: 261px;
+    height: 102px;
+}
+
+/* centrado de 3 logos de redes */
+.logo-redes  {
+display: $align;
+justify-content: center;
+}
+/* alimacion redes */
+@keyframes animacionlogo {
+    
+    0% {transform: rotate( 90deg);} 
+    25% {transform: rotate( 180deg)}
+    75% {transform: rotate( 270deg);}
+    100% {transform: rotate( 360deg); }
+}
+/* aliner mail */
+.mail {
+    text-align: center;
+    
+}
+
+.redes-margin {
+    margin: 0px 20px;
+}
+
+.anima-what:hover {
+    transition: all 1s;
+    transform: scale(1.3);
+    
+}
+.footer-flex {
+    @extend %displayflexcenter;
+}
+.copyright {
+      margin: 0%;
+}
+.form-back {
+    color: #ffffff ;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.flex-form {
+    display: grid;
+   
+}
+.boton-enviar {
+    border-radius: 12px;
+    margin: auto;
+}
+h5 {
+    padding: 18px 0px 0px 0px;
+}

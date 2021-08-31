@@ -1,0 +1,114 @@
+@import  '../base/variables';
+@import  '../base/extends';
+
+
+/* texto estilos*/ 
+h1,h3,h4,h5 {
+    -webkit-text-fill-color: #ffffff; 
+    text-align-last: center;
+    letter-spacing: 0.2rem;
+    text-align-last: center;
+}
+.h2-color {
+    -webkit-text-fill-color: #ff3b3b; 
+    text-align-last: center;
+    letter-spacing: 0.2rem;
+    text-align-last: center;
+}
+
+h1, .subh2 {
+        padding: 20px 0px;
+}
+ 
+p {
+    color: #7ea2eb;
+    letter-spacing: 0.2rem;
+    font-size: larger;
+    }
+
+li {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+.aclaracion-foto {
+    justify-content: space-around;
+}
+.alinear {
+    display: $align;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.ancho-parrafo {
+    margin: 4% ;
+}
+
+/* formato texto de seccion equipamiento*/
+.text-equip {
+    border: 2px solid  #00544b;
+    border-radius: 5px;
+    margin: 7px;
+    padding: 2px 9px;
+}
+.section-1 {
+    padding: 46px 78px ;
+}
+/* formato audio del index */
+.mp3-index {
+        padding: 0px 0px 80px;
+        @extend %displayflexcenter;
+}
+
+/* formato de texto de seccion de audio del index */
+.mp3-texto-index {
+       display:  $align;
+       align-items: center;
+       padding: 0px 49px;
+       
+}
+/* formato en seccion algunos equipos index */
+.index-equip { 
+    margin: 28px 0px;
+}
+/* formato en fotos seccion algunos equipos index */
+.algunos-equipos {
+    padding: 21px 0px;
+    @extend %displayflexcenter;
+}
+/* formato en parrafo seccion nosotros*/
+.parrafo-nosotros {
+    padding: 0px 46px;
+    font-size: 15px;
+}
+/* formato en seccion deparrafo de seccion nosotros*/
+.section-nosotros { 
+      padding: 0px 0px 100px; 
+}
+
+/* texto index*/
+.parrafo-index {
+border: 2px solid gray;
+border-radius: 28px;
+text-align: center;
+padding: 28px;
+background-color:#232323;
+color: #ffffff 
+}
+
+/* formato texto seccion equipamiento*/
+.equipamiento-texto {
+    padding: 80px 0px;
+}
+/* listas sin subrayado*/
+ul {
+    list-style: none;
+}
+/* centrado de videos*/
+.centrar-video {
+    text-align: center;
+}
+
+.text-equip-flex {
+    @extend %displayflexcenter;
+}
