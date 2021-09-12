@@ -3,7 +3,10 @@
 
 /* responsive hasta 320x*/
 @media only screen  and (max-width:  320px) {
-  
+     
+    .video-index {
+        width: 80%;
+     }
     .carrusel-tamaño {
         margin: 0px 5px;    
     }
@@ -111,7 +114,7 @@
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
      
     .carrusel-tamaño {
-        margin: 0% 25%;    
+        margin: 0% 30%;    
     }
     .ajustar-tamaño-videos{
         width:  auto;
@@ -159,9 +162,9 @@
 @media only screen and (min-width: 1025px) and (max-width: 2540px) {
   
     .carrusel-tamaño {
-        margin: 0% 25%;    
+        margin: 0% 30%;    
     }
-
+ 
 
   .carrusel-margin {
     margin: 0px 0px 32px 0px;

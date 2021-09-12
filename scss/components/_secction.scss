@@ -14,6 +14,7 @@ h1,h3,h4,h5 {
     text-align-last: center;
     letter-spacing: 0.2rem;
     text-align-last: center;
+    padding: 1rem;
 }
 
 h1, .subh2 {
@@ -56,7 +57,7 @@ li {
 }
 /* formato audio del index */
 .mp3-index {
-        padding: 0px 0px 80px;
+        padding: 50px 0px 50px;
         @extend %displayflexcenter;
 }
 

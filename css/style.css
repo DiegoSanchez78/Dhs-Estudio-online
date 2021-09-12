@@ -203,6 +203,10 @@ header img {
 
 /* responsive hasta 320x*/
 @media only screen and (max-width: 320px) {
+  .video-index {
+    width: 80%;
+  }
+
   .carrusel-tamaño {
     margin: 0px 5px;
   }
@@ -304,7 +308,7 @@ header img {
 /* responsive desde 769px hasta 1024px*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .carrusel-tamaño {
-    margin: 0% 25%;
+    margin: 0% 30%;
   }
 
   .ajustar-tamaño-videos {
@@ -350,7 +354,7 @@ header img {
 /* responsive desde 1025px hasta 2540px*/
 @media only screen and (min-width: 1025px) and (max-width: 2540px) {
   .carrusel-tamaño {
-    margin: 0% 25%;
+    margin: 0% 30%;
   }
 
   .carrusel-margin {
@@ -384,6 +388,7 @@ h1, h3, h4, h5 {
   text-align-last: center;
   letter-spacing: 0.2rem;
   text-align-last: center;
+  padding: 1rem;
 }
 
 h1, .subh2 {
@@ -429,7 +434,7 @@ li {
 
 /* formato audio del index */
 .mp3-index {
-  padding: 0px 0px 80px;
+  padding: 50px 0px 50px;
 }
 
 /* formato de texto de seccion de audio del index */
